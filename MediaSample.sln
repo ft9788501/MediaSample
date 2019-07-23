@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaSample", "MediaSample\MediaSample.csproj", "{62D2E884-1076-43FB-8C10-7CFA735EE335}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Media", "Media", "{912BAC72-E450-48F1-A918-82D649C6FE19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Media", "Common.Media\Common.Media.csproj", "{90FBF697-41D5-45B0-BC6C-04D8E8D75A48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Media.Core", "Common.Media.Core\Common.Media.Core.csproj", "{DE1C9E59-B4B8-4971-942D-677A49A862C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Media.FFmpeg", "Common.Media.FFmpeg\Common.Media.FFmpeg.csproj", "{B29D9BF2-9581-4E08-B0AF-0CA2B5599AC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Media.NAudio", "Common.Media.NAudio\Common.Media.NAudio.csproj", "{859363A7-EA4E-41CD-A63F-205C82F1617B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62D2E884-1076-43FB-8C10-7CFA735EE335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D2E884-1076-43FB-8C10-7CFA735EE335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D2E884-1076-43FB-8C10-7CFA735EE335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D2E884-1076-43FB-8C10-7CFA735EE335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90FBF697-41D5-45B0-BC6C-04D8E8D75A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90FBF697-41D5-45B0-BC6C-04D8E8D75A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90FBF697-41D5-45B0-BC6C-04D8E8D75A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90FBF697-41D5-45B0-BC6C-04D8E8D75A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE1C9E59-B4B8-4971-942D-677A49A862C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE1C9E59-B4B8-4971-942D-677A49A862C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE1C9E59-B4B8-4971-942D-677A49A862C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE1C9E59-B4B8-4971-942D-677A49A862C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B29D9BF2-9581-4E08-B0AF-0CA2B5599AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29D9BF2-9581-4E08-B0AF-0CA2B5599AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29D9BF2-9581-4E08-B0AF-0CA2B5599AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29D9BF2-9581-4E08-B0AF-0CA2B5599AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859363A7-EA4E-41CD-A63F-205C82F1617B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859363A7-EA4E-41CD-A63F-205C82F1617B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859363A7-EA4E-41CD-A63F-205C82F1617B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859363A7-EA4E-41CD-A63F-205C82F1617B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90FBF697-41D5-45B0-BC6C-04D8E8D75A48} = {912BAC72-E450-48F1-A918-82D649C6FE19}
+		{DE1C9E59-B4B8-4971-942D-677A49A862C2} = {912BAC72-E450-48F1-A918-82D649C6FE19}
+		{B29D9BF2-9581-4E08-B0AF-0CA2B5599AC1} = {912BAC72-E450-48F1-A918-82D649C6FE19}
+		{859363A7-EA4E-41CD-A63F-205C82F1617B} = {912BAC72-E450-48F1-A918-82D649C6FE19}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19F2BB9E-8818-4BB1-A224-C3875FCE2EC9}
+	EndGlobalSection
+EndGlobal
